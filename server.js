@@ -34,10 +34,10 @@ app.use(
 
 export async function getConnection() {
   return await mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "UdayVarmora@2703",
-    database: "Dynamic_Control_Job",
+    host: process.env.MYSQL_HOST,
+    user: process.env.MYSQL_USER,
+    password: process.env.MYSQL_PASSWORD,
+    database: process.env.MYSQL_DATABASE,
   });
 }
 
