@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1975,
+    "countryId": 1,
+    "isoCode": "AN",
+    "countryCode": "IN",
+    "state": "Andaman and Nicobar Islands"
+  },
+  {
+    "id": 1976,
+    "countryId": 1,
+    "isoCode": "AP",
+    "countryCode": "IN",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": 1977,
+    "countryId": 1,
+    "isoCode": "AR",
+    "countryCode": "IN",
+    "state": "Arunachal Pradesh"
+  },
+  {
+    "id": 1978,
+    "countryId": 1,
+    "isoCode": "AS",
+    "countryCode": "IN",
+    "state": "Assam"
+  },
+  {
+    "id": 1979,
+    "countryId": 1,
+    "isoCode": "BR",
+    "countryCode": "IN",
+    "state": "Bihar"
+  },
+  {
+    "id": 1980,
+    "countryId": 1,
+    "isoCode": "CH",
+    "countryCode": "IN",
+    "state": "Chandigarh"
+  },
+  {
+    "id": 1981,
+    "countryId": 1,
+    "isoCode": "CT",
+    "countryCode": "IN",
+    "state": "Chhattisgarh"
+  },
+  {
+    "id": 1982,
+    "countryId": 1,
+    "isoCode": "DH",
+    "countryCode": "IN",
+    "state": "Dadra and Nagar Haveli and Daman and Diu"
+  },
+  {
+    "id": 1983,
+    "countryId": 1,
+    "isoCode": "DL",
+    "countryCode": "IN",
+    "state": "Delhi"
+  },
+  {
+    "id": 1984,
+    "countryId": 1,
+    "isoCode": "GA",
+    "countryCode": "IN",
+    "state": "Goa"
+  },
+  {
+    "id": 1985,
+    "countryId": 1,
+    "isoCode": "GJ",
+    "countryCode": "IN",
+    "state": "Gujarat"
+  },
+  {
+    "id": 1986,
+    "countryId": 1,
+    "isoCode": "HP",
+    "countryCode": "IN",
+    "state": "Himachal Pradesh"
+  },
+  {
+    "id": 1987,
+    "countryId": 1,
+    "isoCode": "HR",
+    "countryCode": "IN",
+    "state": "Haryana"
+  },
+  {
+    "id": 1988,
+    "countryId": 1,
+    "isoCode": "JH",
+    "countryCode": "IN",
+    "state": "Jharkhand"
+  },
+  {
+    "id": 1989,
+    "countryId": 1,
+    "isoCode": "JK",
+    "countryCode": "IN",
+    "state": "Jammu and Kashmir"
+  },
+  {
+    "id": 1990,
+    "countryId": 1,
+    "isoCode": "KA",
+    "countryCode": "IN",
+    "state": "Karnataka"
+  },
+  {
+    "id": 1991,
+    "countryId": 1,
+    "isoCode": "KL",
+    "countryCode": "IN",
+    "state": "Kerala"
+  },
+  {
+    "id": 1992,
+    "countryId": 1,
+    "isoCode": "LA",
+    "countryCode": "IN",
+    "state": "Ladakh"
+  },
+  {
+    "id": 1993,
+    "countryId": 1,
+    "isoCode": "LD",
+    "countryCode": "IN",
+    "state": "Lakshadweep"
+  },
+  {
+    "id": 1994,
+    "countryId": 1,
+    "isoCode": "MH",
+    "countryCode": "IN",
+    "state": "Maharashtra"
+  },
+  {
+    "id": 1995,
+    "countryId": 1,
+    "isoCode": "ML",
+    "countryCode": "IN",
+    "state": "Meghalaya"
+  },
+  {
+    "id": 1996,
+    "countryId": 1,
+    "isoCode": "MN",
+    "countryCode": "IN",
+    "state": "Manipur"
+  },
+  {
+    "id": 1997,
+    "countryId": 1,
+    "isoCode": "MP",
+    "countryCode": "IN",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": 1998,
+    "countryId": 1,
+    "isoCode": "MZ",
+    "countryCode": "IN",
+    "state": "Mizoram"
+  },
+  {
+    "id": 1999,
+    "countryId": 1,
+    "isoCode": "NL",
+    "countryCode": "IN",
+    "state": "Nagaland"
+  },
+  {
+    "id": 2000,
+    "countryId": 1,
+    "isoCode": "OR",
+    "countryCode": "IN",
+    "state": "Odisha"
+  },
+  {
+    "id": 2001,
+    "countryId": 1,
+    "isoCode": "PB",
+    "countryCode": "IN",
+    "state": "Punjab"
+  },
+  {
+    "id": 2002,
+    "countryId": 1,
+    "isoCode": "PY",
+    "countryCode": "IN",
+    "state": "Puducherry"
+  },
+  {
+    "id": 2003,
+    "countryId": 1,
+    "isoCode": "RJ",
+    "countryCode": "IN",
+    "state": "Rajasthan"
+  },
+  {
+    "id": 2004,
+    "countryId": 1,
+    "isoCode": "SK",
+    "countryCode": "IN",
+    "state": "Sikkim"
+  },
+  {
+    "id": 2005,
+    "countryId": 1,
+    "isoCode": "TG",
+    "countryCode": "IN",
+    "state": "Telangana"
+  },
+  {
+    "id": 2006,
+    "countryId": 1,
+    "isoCode": "TN",
+    "countryCode": "IN",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": 2007,
+    "countryId": 1,
+    "isoCode": "TR",
+    "countryCode": "IN",
+    "state": "Tripura"
+  },
+  {
+    "id": 2008,
+    "countryId": 1,
+    "isoCode": "UP",
+    "countryCode": "IN",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": 2009,
+    "countryId": 1,
+    "isoCode": "UT",
+    "countryCode": "IN",
+    "state": "Uttarakhand"
+  },
+  {
+    "id": 2010,
+    "countryId": 1,
+    "isoCode": "WB",
+    "countryCode": "IN",
+    "state": "West Bengal"
+  }
+]

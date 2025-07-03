@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/create.css" />
+  </head>
+  <body>
+    <h3>Job Application Form</h3>
+    <form id="createForm" action="" method="post">
+      <fieldset>
+        <legend>Basic Details</legend>
+        <div class="div1">
+          <div class="div">
+            <label for="firstName">First Name: </label>
+            <input type="text" name="firstName" id="firstName" />
+          </div>
+          <div class="div">
+            <label for="lastName">Last Name: </label>
+            <input type="text" id="lastName" name="lastName" />
+          </div>
+        </div>
+        <div class="div1">
+          <div class="div">
+            <label for="designation">Designation: </label>
+            <input type="text" id="designation" name="designation" />
+          </div>
+          <div class="div">
+            <label for="address1">Address 1: </label>
+            <input type="text" id="address1" name="address1" />
+          </div>
+        </div>
+        <div class="div1">
+          <div class="div">
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="email" />
+          </div>
+          <div class="div">
+            <label for="address2">Address 2: </label>
+            <input type="text" id="address2" name="address2" />
+          </div>
+        </div>
+        <div class="div1">
+          <div class="div">
+            <label for="phone">Phone Number: </label>
+            <input type="text" id="phone" name="phone" />
+          </div>
+          <div class="div">
+            <label for="state">State: </label>
+            <select name="state" id="state">
+              <option value="">Select State</option>
+            </select>
+          </div>
+        </div>
+        <div class="div1">
+          <div class="div">
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" id="male" value="male" />
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="female" value="female" />
+            <label for="female">female</label>
+          </div>
+          <div class="div">
+            <label id="cityLabel" for="city">City: </label>
+            <select name="city" id="city">
+              <option value="">Select City</option>
+            </select>
+          </div>
+        </div>
+        <div class="div1">
+          <div class="div">
+            <label for="dob">Date Of Birth: </label>
+            <input
+              type="text"
+              placeholder="Format: 'YYYY/MM/DD'"
+              name="dob"
+              id="dob"
+            />
+          </div>
+          <div class="div">
+          </div>
+          <div class="div">
+            <label for="zipCode">Zip Code: </label>
+            <input type="text" name="zipCode" id="zipCode" />
+          </div>
+        </div>
+        <div class="div1">
+          <div class="div">
+            <label for="relationshipStatus">Relationship Status: </label>
+            <select name="relationshipStatus" id="relationshipStatus">
+              <option value="Single">Single</option>
+              <option value="Married">Married</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Education Details</legend>
+        <div id="div5">
+          <div class="div1" id="div1">
+            <div class="div">
+              <label for="courseName1">Couse Name: </label>
+              <input type="text" name="courseName1" id="courseName1" />
+            </div>
+            <div class="div">
+              <label for="board_university1">Board/University: </label>
+              <input
+                type="text"
+                name="board_university1"
+                id="board_university1"
+              />
+            </div>
+            <div class="div">
+              <label for="passingYear1">Passing Year: </label>
+              <input type="text" name="passingYear1" id="passingYear1" />
+            </div>
+            <div class="div">
+              <label for="percentage1">Percentage: </label>
+              <input type="text" name="percentage1" id="percentage1" />
+            </div>
+          </div>
+          <div id="div6"></div>
+          <div id="buttonDiv">
+            <input
+              type="button"
+              name="button1"
+              id="button1"
+              class="button"
+              value="Add Education"
+            />
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Work Experience</legend>
+        <div id="div7">
+          <div class="div1" id="div11">
+            <div class="div">
+              <label for="companyName1">Company Name: </label>
+              <input type="text" name="companyName1" id="companyName1" />
+            </div>
+            <div class="div">
+              <label for="workExperienceDesignation1">Designation: </label>
+              <input
+                type="text"
+                name="workExperienceDesignation1"
+                id="workExperienceDesignation1"
+              />
+            </div>
+            <div class="div">
+              <label for="fromDate1">From: </label>
+              <input
+                type="text"
+                placeholder="Format: 'YYYY/MM/DD'"
+                name="fromDate1"
+                id="fromDate1"
+              />
+            </div>
+            <div class="div">
+              <label for="toDate1">To: </label>
+              <input
+                type="text"
+                placeholder="Format: 'YYYY/MM/DD'"
+                name="toDate1"
+                id="toDate1"
+              />
+            </div>
+          </div>
+          <div id="div8"></div>
+          <div id="buttonDiv">
+            <input
+              type="button"
+              name="button2"
+              id="button2"
+              class="button"
+              value="Add Work Experience"
+            />
+          </div>
+        </div>
+      </fieldset>
+      <div>
+        <fieldset>
+          <legend>Language Known</legend>
+          <div class="div1">
+            <label for="Hindi">Hindi</label>
+            <div class="div">
+              <input type="checkbox" name="Hindi" id="readHindi" value="Read" />
+              <label for="readHindi">Read</label>
+            </div>
+            <div class="div">
+              <input
+                type="checkbox"
+                name="Hindi"
+                id="writeHindi"
+                value="Write"
+              />
+              <label for="writeHindi">Write</label>
+            </div>
+            <div class="div">
+              <input
+                type="checkbox"
+                name="Hindi"
+                id="speakHindi"
+                value="Speak"
+              />
+              <label for="speakHindi">Speak</label>
+            </div>
+          </div>
+          <div class="div1">
+            <label for="English">English</label>
+            <div class="div">
+              <input
+                type="checkbox"
+                name="English"
+                id="readEnglish"
+                value="Read"
+              />
+              <label for="readEnglish">Read</label>
+            </div>
+            <div class="div">
+              <input
+                type="checkbox"
+                name="English"
+                id="writeEnglish"
+                value="Write"
+              />
+              <label for="writeEnglish">Write</label>
+            </div>
+            <div class="div">
+              <input
+                type="checkbox"
+                name="English"
+                id="speakEnglish"
+                value="Speak"
+              />
+              <label for="speakEnglish">Speak</label>
+            </div>
+          </div>
+          <div class="div1">
+            <label for="Gujarati">Gujarati</label>
+            <div class="div">
+              <input
+                type="checkbox"
+                name="Gujarati"
+                id="readGujarati"
+                value="Read"
+              />
+              <label for="readGujarati">Read</label>
+            </div>
+            <div class="div">
+              <input
+                type="checkbox"
+                name="Gujarati"
+                id="writeGujarati"
+                value="Write"
+              />
+              <label for="writeGujarati">Write</label>
+            </div>
+            <div class="div">
+              <input
+                type="checkbox"
+                name="Gujarati"
+                id="speakGujarati"
+                value="Speak"
+              />
+              <label for="speakGujarati">Speak</label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Technologies you know</legend>
+          <div class="div1">
+            <label for="PHP">PHP</label>
+            <div class="div">
+              <input
+                type="radio"
+                name="PHP"
+                id="phpBeginner"
+                value="Beginner"
+              />
+              <label for="phpBeginner">Beginner</label>
+            </div>
+            <div class="div">
+              <input
+                type="radio"
+                name="PHP"
+                id="phpMediator"
+                value="Mediator"
+              />
+              <label for="phpMediator">Mediator</label>
+            </div>
+            <div class="div">
+              <input type="radio" name="PHP" id="phpExpert" value="Expert" />
+              <label for="phpExpert">Expert</label>
+            </div>
+          </div>
+          <div class="div1">
+            <label for="MySQL">MySQL</label>
+            <div class="div">
+              <input
+                type="radio"
+                name="MySQL"
+                id="mysqlBeginner"
+                value="Beginner"
+              />
+              <label for="mysqlBeginner">Beginner</label>
+            </div>
+            <div class="div">
+              <input
+                type="radio"
+                name="MySQL"
+                id="mysqlMediator"
+                value="Mediator"
+              />
+              <label for="mysqlMediator">Mediator</label>
+            </div>
+            <div class="div">
+              <input
+                type="radio"
+                name="MySQL"
+                id="mysqlExpert"
+                value="Expert"
+              />
+              <label for="mysqlExpert">Expert</label>
+            </div>
+          </div>
+          <div class="div1">
+            <label for="Laravel">Laravel</label>
+            <div class="div">
+              <input
+                type="radio"
+                name="Laravel"
+                id="laravelBeginner"
+                value="Beginner"
+              />
+              <label for="laravelBeginner">Beginner</label>
+            </div>
+            <div class="div">
+              <input
+                type="radio"
+                name="Laravel"
+                id="laravelMediator"
+                value="Mediator"
+              />
+              <label for="laravelMediator">Mediator</label>
+            </div>
+            <div class="div">
+              <input
+                type="radio"
+                name="Laravel"
+                id="laravelExpert"
+                value="Expert"
+              />
+              <label for="laravelExpert">Expert</label>
+            </div>
+          </div>
+          <div class="div1">
+            <label for="Oracle">Oracle</label>
+            <div class="div">
+              <input
+                type="radio"
+                name="Oracle"
+                id="oracleBeginner"
+                value="Beginner"
+              />
+              <label for="oracleBeginner">Beginner</label>
+            </div>
+            <div class="div">
+              <input
+                type="radio"
+                name="Oracle"
+                id="oracleMediator"
+                value="Mediator"
+              />
+              <label for="oracleMediator">Mediator</label>
+            </div>
+            <div class="div">
+              <input
+                type="radio"
+                name="Oracle"
+                id="oracleExpert"
+                value="Expert"
+              />
+              <label for="oracleExpert">Expert</label>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+      <fieldset>
+        <legend>Reference Contact</legend>
+        <div id="div9">
+          <div class="div1" id="div111">
+            <div class="div">
+              <label for="referenceContactName1">Name: </label>
+              <input
+                type="text"
+                name="referenceContactName1"
+                id="referenceContactName1"
+              />
+            </div>
+            <div class="div">
+              <label for="contactNumber1">Contact Number: </label>
+              <input type="text" name="contactNumber1" id="contactNumber1" />
+            </div>
+            <div class="div">
+              <label for="relation1">Relation: </label>
+              <input type="text" name="relation1" id="relation1" />
+            </div>
+          </div>
+          <div id="div10"></div>
+          <div id="buttonDiv">
+            <input
+              type="button"
+              name="button3"
+              id="button3"
+              class="button"
+              value="Add Reference Contact"
+            />
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Preferances</legend>
+        <div class="div1">
+          <div class="div-preferdLocation">
+            <label for="preferdLocation">Preferd Location: </label>
+            <select name="preferdLocation" id="preferdLocation" multiple>
+              <option value="Item One">Item One</option>
+              <option value="Item Two">Item Two</option>
+              <option value="Item Three">Item Three</option>
+            </select>
+          </div>
+          <div class="div2">
+            <div class="div">
+              <label for="noticePeriod">Notice Period: </label>
+              <input type="text" name="noticePeriod" id="noticePeriod" />
+            </div>
+            <div class="div">
+              <label for="expactedCTC">Expacted CTC: </label>
+              <input type="text" name="expactedCTC" id="expactedCTC" />
+            </div>
+            <div class="div">
+              <label for="currentCTC">Current CTC: </label>
+              <input type="text" name="currentCTC" id="currentCTC" />
+            </div>
+          </div>
+          <div class="div">
+            <label for="department">Department: </label>
+            <select name="department" id="department">
+              <option value="Development">Development</option>
+              <option value="Design">Design</option>
+              <option value="Marketing">Marketing</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+      <div class="div-button">
+        <input type="reset" name="reset" id="reset" value="Reset" />
+        <input type="submit" name="submit" id="submit" value="Submit" />
+      </div>
+    </form>
+
+    <script src="/javascript/create.js"></script>
+  </body>
+</html>

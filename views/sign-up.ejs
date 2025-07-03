@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #mainDiv form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+      #mainDiv form input {
+        width: 200px;
+      }
+      #imgDiv img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        overflow: hidden;
+      }
+      #imageValidation, #errorMessage {
+        color: red;
+        width: 420px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mainDiv">
+      <form id="signUpForm" action="" method="post" enctype="multipart/form-data">
+        <label for="firstName">First Name: </label>
+        <input type="text" name="firstName" id="firstName" />
+        <label for="lastName">Last Name: </label>
+        <input type="text" name="lastName" id="lastName" />
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" />
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" />
+        <label for="profilePicture">Profile Picture: </label>
+        <input type="file" name="profilePicture" id="profilePicture" />
+        <label for="imageValidation" id="imageValidation"></label>
+        <!-- <label for="errorMessage" id="errorMessage"></label> -->
+        <input type="submit" value="Sign Up" id="signUpSubmit"/>
+      </form>
+    </div>
+    <div id="imgDiv">
+    </div>
+
+    <script src="/javascript/script.js"></script>
+  </body>
+</html>

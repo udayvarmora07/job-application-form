@@ -1,0 +1,122 @@
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 10px;
+  }
+  
+  select,
+  input[type="text"] {
+    width: 180px;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  fieldset {
+    margin-bottom: 15px;
+  }
+  
+  legend {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .div-preferdLocation {
+    display: flex;
+  }
+  
+  .div-preferdLocation > select {
+    width: 100px;
+  }
+  
+  .div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .div-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .div-button > input {
+    width: 120px;
+    padding: 5px;
+  }
+  
+  .div-button > input[type="reset"] {
+    background-color: rgb(3, 79, 165);
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 25px;
+  }
+  
+  .div-button > input[type="submit"] {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .button {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+  }
+  
+  #buttonDiv {
+    text-align: center;
+  }
+  
+  input {
+    font-size: 16px;
+    color: black;
+    pointer-events: none;
+    background-color: lightgray;
+  }
+  
+  select {
+    font-size: 16px;
+    color: black;
+    background-color: lightgray;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    font-size: 16px;
+    color: black;
+  }
+  
+  input[type="radio"]:checked {
+    background-color: yellow;
+    color: black;
+    opacity: 1; 
+  }
+  
+  #div5 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    font-size: 16px;
+    color: black;
+    pointer-events: none;
+    background-color: lightgray;
+  }
+  
+  select {
+    font-size: 16px;
+    color: black;
+    background-color: lightgray;
+  }
+  
